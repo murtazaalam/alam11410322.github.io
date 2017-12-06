@@ -1,0 +1,77 @@
+#reg{
+	font-size: 30px;
+	text-align: center;
+	margin-top:0px;
+	
+}
+.navbar a:hover{
+	background:#674FC9;
+}
+.navbar ul li a:hover{
+	
+	background:#674FC9;
+}
+#border-non{
+	border-top:none !important;
+}
+#p1:hover{
+	background:#674FC9;;
+}
+body {
+  background: #F1F3FA;
+}
+.profile {
+  margin: 2px 0;
+  margin-left: 400px;
+}
+.profile-sidebar {
+  padding: 20px 0 30px 0;
+  background: #fff;
+}
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 60%;
+  height: 40%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+.page-header {
+    padding-bottom: 10.5px;
+    margin: 46px 0 23px;
+    border-bottom: 1px solid #999 !important;
+}
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+.btn-width{
+	width: 70px;
+}
+.profile-usermenu{
+	margin-top: 30px;
+}
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: inherit !important;
+}

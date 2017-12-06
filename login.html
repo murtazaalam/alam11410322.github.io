@@ -1,0 +1,147 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Login</title>
+		<meta name="theme-color" content="#4F6BC9"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0 user-scalable=0"/>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/app.js"></script>
+		<link rel="manifest" href="manifest.json">
+		
+	</head>
+	<body>
+		<!-- header-->
+		<nav class="navbar navbar-light bg-inverse" style="background:#4F6BC9">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="" class="navbar-brand" style="color:white">Home</a>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" style="color:white">Login</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- header-->	
+		<button class="js-notify-btn">Notify me!</button>
+            <button disabled class="js-push-btn">Enable Push Messaging</button><br><br>
+  <section class="js-sub-endpoint" style="display:none;width:80%">
+    <h3>Subscription Object:</h3>
+    <code class="js-subscription-json"></code><br><br><br>
+    <h3>Endpoint URL:</h3>
+    <code class="js-endpoint-url"></code>
+  </section>
+		<div class="container">
+			<table class="table">
+				<thead>
+					<tr>
+						<th style="text-align:center;">Text Tag</th>
+						<th style="text-align:center">Image View</th>
+					</tr>
+				</thead>
+			
+		<!--	<form class="pull-left">
+				<div class="form-group">
+					<label for="user">User Name</label>
+					<input type="text" class="form-control" style="width:600px;" >
+				</div>
+			</form> -->
+				<tbody>
+					<tr>
+						<td>
+							<table class="table" style="margin-top:60px;">
+								<thead>
+								</thead>
+								<tbody>
+									<tr>
+										<td id="border-non"><label>Login Id<label></td>
+										<td id="border-non"><input type="text" class="form-control" style="width:500px;"></td>
+									</tr>
+									<tr>
+										<td id="border-non"><label>Password<label></td>
+										<td id="border-non"><input type="password" class="form-control" style="width:500px;"></td>
+									</tr>
+									<tr>
+										<td id="border-non"></td>
+										<td id="border-non"><a href="landingPage.html" class="btn btn-primary btn-md" style="width:500px;">login</a></td>
+									</tr>
+									<tr>
+										<td id="border-non"></td>
+										<td id="border-non" >
+											<table class="table">
+												<thead></thead>
+												<tbody>
+													<tr>
+														<td id="border-non" colspan="2">
+															<a href="Registration.html" style="color:black;font-weight:bold;border-right:1px solid silver;padding-right:7px;padding-top:0px;">
+																Not registered click here 
+															</a>
+															<a href="#" style="color:black;font-weight:bold;padding-left:8px;padding-top:0px;" data-toggle="modal" data-target="#modal1">
+																Recover password
+															</a>
+															<div class="modal fade" id="modal1" data-backdrop="static">
+																<div class="modal-dialog modal-md">
+																	<div class="modal-content">
+																		<div class="modal-header">
+																			<button class="close" data-dismiss="modal">&times;</button>
+																			<label style="text-align:center">Recover Password</label>
+																		</div>
+																		<div class="modal-body">
+																			<input type="text" class="form-control" placeholder="Enter User Name">
+																			<button class="btn btn-success btn-sm" style="margin-top:10px;">Send</button>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</td>
+													</tr>
+												<tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						
+						</td>
+						<td style="border-left: 1px solid silver;" >
+							<span class="pull-right">
+								<div class="carousel slide" id="carousel1" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#carousel1" data-slide-to="0" class="active"></li>
+										<li data-target="#carousel1" data-slide-to="1"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="item active">
+											<img src="image/img1.jpg" class="img-responsive">
+										</div>
+										<div class="item">
+											<img src="image/img2.jpg">
+										</div>
+									</div>
+									
+								</div>
+								
+							</span>
+						</td>
+					</tr>
+				<tbody>
+			</table>
+		</div>
+		<footer class="navbar navbar-inverse navbar-fixed-bottom" >
+			<div class="container-fluid" style="background:#4F6BC9">
+				<ul class="nav navbar-nav">
+					<li><a href="#" style="color: white;" id="p1">Terms & Conditions</a></li>
+					<li><a href="#" style="color: white;" id="p1">About Us</a></li>
+					<li><a href="#" style="color: white;" id="p1">Privacy</a></li>
+				</ul>
+				<div class="text-center" style="padding-right: 340px;">
+					<p style="color: white; padding-top: 20px;" class="">Copyright &copy; Murtuza 2017</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
